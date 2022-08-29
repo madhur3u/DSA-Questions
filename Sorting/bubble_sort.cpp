@@ -25,10 +25,13 @@ int main() {
 	// in each pass one element will always be in sorted position 
 	// that will be our last element
 	// the inner loop only runs till n - i - 1 as nth element is sorted after each pass
+	// in bubbles sort the array is sorted from last means the max el will be places at last pos in 1st iteration
+	// 2nd it - 2nd max at 2nd last and so on
 	for (int i = 0; i < n - 1; i++){
 		for (int j = 0; j < n - i - 1; j++){
 
 			// sorting 
+			// ig two elements are not sorted swap them
 			if (a[j] > a[j+1])
 				swap(&a[j], &a[j+1]);
 		}
