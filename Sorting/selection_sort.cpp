@@ -1,4 +1,5 @@
 // https://takeuforward.org/sorting/selection-sort-algorithm/
+// https://www.geeksforgeeks.org/selection-sort/
 // Time Complexity: O(n^2) (nested for loops)
 // Space Complexity: O(1)
 // Find the minimum element in the unsorted array and swap it with the element at the beginning.
