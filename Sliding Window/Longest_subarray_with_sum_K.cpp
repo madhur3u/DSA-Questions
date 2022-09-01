@@ -1,12 +1,9 @@
 // https://www.geeksforgeeks.org/longest-sub-array-sum-k/
 // https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k
 
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
-
-// } Driver Code Ends
 class Solution{
     public:
     int lenOfLongSubarr(int a[],  int n, int k) 
@@ -46,8 +43,6 @@ class Solution{
 
 };
 
-//{ Driver Code Starts.
-
 int main() {
 	//code
 	
@@ -67,4 +62,3 @@ int main() {
 	
 	return 0;
 }
-// } Driver Code Ends
