@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/majority-element/
 // https://www.youtube.com/watch?v=7pnhv842keE
 
+// Boyer-Moore Majority Vote Algorithm
+
 /*
 Approach: 
 
