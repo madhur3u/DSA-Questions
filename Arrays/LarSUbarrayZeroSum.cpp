@@ -39,7 +39,22 @@ class Solution{
     }
 };
 
+
 /*
+One thought come our mind is whenever subarray sum is equal to zero , We get one hint →
+Let's understand with example                  0    1   2    3   4   5   6   7
+Suppose our input array is →                  {15, -2,  2,  -8,  1,  7,  10, 23}
+Ok let's write prefix sum of this array →     {15,  13, 15,  7,  8,  15, 25, 48}
+You can see index (prefix array) → 0 and 2 element are same and 0 and 5 element are also same . 
+This means between these indexes subarray sum ( in original array ) is zero . 
+How we can sure that ??? 
+If you add something in number and remove also . the number initially and last are same . 
+We can use this approach and solve this problem efficiently . 
+For search in prefix array → use HashMap .
+The sum-index pair will be stored in a hash-map. A Hash map allows insertion and deletion of key-value pair in constant time. 
+Therefore, the time complexity remains unaffected. So, if the same value appears twice in the array, it will be guaranteed that 
+the particular array will be a zero-sum sub-array. 
+
 Approach: 
 
     First let us initialise a variable say sum = 0 which stores the sum of elements traversed so far and another variable say max = 0 
